@@ -1,0 +1,21 @@
+{
+    "name": "nkazarynava/composer-test",
+    "description": "A test package to test my composer skills",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Natallia Kazarynava",
+            "email": "Natallia_Kazarynava@epam.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ComposerTestNamespace\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
